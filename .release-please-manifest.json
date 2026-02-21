@@ -1,4 +1,4 @@
 {
-  "packages/cli": "1.0.0",
+  "packages/cli": "1.0.1",
   "crates/mylib": "0.1.0"
 }
