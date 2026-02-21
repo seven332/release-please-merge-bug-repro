@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "packages": {
+    "packages/cli": {
+      "release-type": "node",
+      "component": "cli"
+    },
+    "crates/mylib": {
+      "release-type": "rust",
+      "component": "mylib"
+    }
+  },
+  "plugins": [
+    {
+      "type": "node-workspace"
+    },
+    {
+      "type": "cargo-workspace"
+    }
+  ]
+}
